@@ -17,9 +17,14 @@ function divSelector() {
 }
 
 function firstListItem() {
+<<<<<<< HEAD
   return $("ul#pic-list li:first-child")
 }
 
 //function firstListItem() {
 //  return $("ul li:first-child")
 //}
+=======
+  return $("ul #pic-list:first-child")
+}
+>>>>>>> feb5afcf803da24690602c0771fe02a402aeb601
